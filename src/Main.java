@@ -6,8 +6,8 @@ public class Main {
         int bonusCash = 0;
         int endBalance = startBalance + deposit;
 
-        if(deposit > 1000){
-            bonusCash = deposit/bonus;
+        if (deposit > 1000) {
+            bonusCash = deposit / bonus;
             endBalance = endBalance + bonusCash;
         }
 
